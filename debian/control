@@ -1,0 +1,52 @@
+Source: dde
+Section: metapackages
+Priority: extra
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: http://pardus.org.tr
+
+Package: dde
+Architecture: all
+Depends: ${misc:Depends},
+ dde-calendar,
+ dde-control-center(>> 2.90.5),
+ dde-daemon,
+ dde-desktop,
+ dde-dock,
+ dde-file-manager,
+ dde-launcher,
+ dde-polkit-agent,
+ dde-session-ui,
+ deepin-deb-installer,
+ deepin-desktop-base,
+ deepin-gtk-theme,
+ deepin-icon-theme,
+ deepin-image-viewer,
+ deepin-menu,
+ deepin-metacity,
+ deepin-music,
+ deepin-notifications,
+ deepin-screenshot,
+ deepin-system-monitor,
+ deepin-terminal,
+ deepin-wm,
+ deepin-wm-switcher,
+ gnome-themes-standard,
+ gksu,
+ gtk2-engines-pixbuf,
+ gtk2-engines-murrine,
+ lightdm,
+ lastore-daemon,
+ startdde
+Recommends:
+ deepin-screen-recorder,
+ deepin-voice-recorder,
+ deepin-shortcut-viewer,
+ file-roller,
+ gksudo,
+ gedit
+Description: Deepin New Desktop Environment 
+ This is a meta package depends Deepin Desktop Envrionment.
+ .
+ You can safety remove it after installed.
